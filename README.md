@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # RTJMT
 =======
 ![alt text](image.png)
