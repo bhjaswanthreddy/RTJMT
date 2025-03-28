@@ -60,7 +60,8 @@ Follow these steps to install and run the project:
 3. Use the sidebar to navigate through different analysis sections.
 
 ## Dashboard Preview
-![Dashboard Preview](Screenshot 2025-03-27 205956.png)
+![Dashboard Preview]
+![alt text](image-1.png)
 
 ## Contributing
 Contributions are welcome! To contribute:
