@@ -111,7 +111,7 @@ def load_data(file_path):
     df['Skills'] = df['Skills'].str.replace(', ', ',').str.replace(',', ', ')
     return df
 
-file_path = r""
+file_path = r"C:\\Users\\bhima\\Downloads\\expanded_cloud_architect_jobs.csv"
 df = load_data(file_path)
 
 # Sidebar Navigation with Icons
