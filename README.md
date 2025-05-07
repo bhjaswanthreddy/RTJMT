@@ -1,7 +1,7 @@
 
 # RTJMT
 =======
-![alt text](image.png)
+![alt text](dashboard.jpeg)
 
 # 🌐 Cloud Architect Job Market Dashboard
 
