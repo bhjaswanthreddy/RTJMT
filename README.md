@@ -3,83 +3,81 @@
 =======
 ![alt text](image.png)
 
-## Cloud Architect Job Market Analysis
+# 🌐 Cloud Architect Job Market Dashboard
 
-An interactive dashboard to analyze job market trends, salary benchmarks, and skill demands for cloud architect roles using Streamlit and Plotly.
+This is a dynamic and interactive web dashboard designed to help **job seekers**, **HR analysts**, and **career planners** understand the Cloud Architect job market. It offers powerful visualizations, skill-based filtering, salary trend analysis, and resume-to-job matching.
 
-## Table of Contents
-- [Description](#description)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Dashboard Preview](#dashboard-preview)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+## 📦 Contents
 
-## Description
-The Cloud Architect Job Market Analysis Dashboard provides actionable insights using real-world data. By visualizing salary trends, regional job demands, and key skill requirements, it helps professionals, recruiters, and market analysts make data-driven decisions.
-
-### Key Features Include:
-- Salary distribution comparison across different locations.
-- Skill analysis to determine in-demand technologies.
-- Trends visualization using date-based filtering and moving averages.
-
-## Features
-- 📊 **Interactive Salary Analysis:** Compare salaries based on experience and location.
-- 📅 **Trend Analysis:** Identify salary fluctuations using a time-series graph.
-- 📌 **Skill Demand Visualization:** Discover the most in-demand skills for cloud architects.
-- 🖼️ **Customizable Data Views:** Filter data dynamically with intuitive controls.
-
-## Installation
-Follow these steps to install and run the project:
-
-1. Clone the repository:
-```bash
- git clone https://github.com/yourusername/cloud-architect-job-market.git
- cd cloud-architect-job-market
-```
-
-2. Create a virtual environment and activate it:
-```bash
- python -m venv venv
- source venv/bin/activate # On Windows use venv\Scripts\activate
-```
-
-3. Install dependencies:
-```bash
- pip install -r requirements.txt
-```
-
-## Usage
-1. Ensure the dataset is available in the specified directory.
-2. Run the application using Streamlit:
-```bash
- streamlit run main.py
-```
-3. Use the sidebar to navigate through different analysis sections.
-
-## Dashboard Preview
-![Dashboard Preview]
-![alt text](image-1.png)
-
-## Contributing
-Contributions are welcome! To contribute:
-- Fork the repository.
-- Create a new branch.
-- Commit your changes.
-- Submit a pull request.
-
-For major changes, please open an issue to discuss.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-- **Streamlit** for frontend development.
-- **Plotly** for visualizations.
-- **Pandas** for data manipulation.
-- Thanks to the open data sources for providing the dataset.
+- `jobData.json`: Final validated dataset used in the application
+- `page.js`: Main frontend code written in React with Tailwind CSS and Recharts
+- `Data_Validation_and_Transformation.xlsx`: Excel file showing raw and cleaned data used in the dashboard
+- `jobData_cleaned_final.json`: Final processed data after transformation and validation
+- `expanded_cloud_architect_jobs.csv`: Raw data before transformation
 
 ---
->>>>>>> 370f67c (Initial Push)
+
+## 🚀 Features
+
+- 📊 **Dashboard View**: Total jobs, average salaries, and top hiring locations
+- 📈 **Analytics Tab**: Salary breakdown by role, location, and time
+- 🧠 **Skill Match Tab**: Filter jobs based on user-selected skills
+- 📂 **Resume Matcher**: Upload a `.txt` or text-based `.pdf` resume and get matched job results
+- 📍 **Filters**: Skill, experience level, and location
+
+---
+
+## 📁 Dataset Source & Transformation
+
+The original dataset was loaded from `expanded_cloud_architect_jobs.csv`, then:
+
+- Cleaned for null values and outliers
+- Standardized salary values and date formats
+- Normalized skill strings (trimmed, lowercased, deduplicated)
+- Computed metrics like average salaries by title/location/month
+
+These transformation steps are documented in the `Data_Validation_and_Transformation.xlsx`.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, Tailwind CSS, Recharts, day.js
+- **Data Format**: JSON
+- **Language**: JavaScript (ES6+)
+
+---
+
+## 🧪 How to Run
+
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/yourusername/cloud-architect-dashboard.git
+Navigate to the project directory
+
+bash
+Copy
+Edit
+cd cloud-architect-dashboard
+Install dependencies
+
+bash
+Copy
+Edit
+npm install
+Start the development server
+
+bash
+Copy
+Edit
+npm run dev
+🎓 Learning Outcomes
+Data validation and preprocessing in Python/Excel
+
+Frontend filtering and state management in React
+
+Salary visualization using Recharts
+
+Resume skill matching logic
+
+Human-centered design and presentation
