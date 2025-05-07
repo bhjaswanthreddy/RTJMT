@@ -53,24 +53,16 @@ These transformation steps are documented in the `Data_Validation_and_Transforma
 1. Clone this repository  
    ```bash
    git clone https://github.com/yourusername/cloud-architect-dashboard.git
-Navigate to the project directory
-
-bash
-Copy
-Edit
+2. Navigate to the project directory
 cd cloud-architect-dashboard
-Install dependencies
 
-bash
-Copy
-Edit
+3. Install dependencies
 npm install
-Start the development server
 
-bash
-Copy
-Edit
+4. Start the development server
 npm run dev
+
+
 🎓 Learning Outcomes
 Data validation and preprocessing in Python/Excel
 
